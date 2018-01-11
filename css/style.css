@@ -17,7 +17,7 @@
 .deleteme-content{
     max-width: 400px;
     border: 2px solid red;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 15px;
 }
 
@@ -1230,7 +1230,7 @@ body {
     width: 100%;
     /*                        background: url(img/towel.jpg) no-repeat;*/
     background-color: #028f02;
-    
+
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1510,6 +1510,3 @@ p{
 /*##############################################################################*/
 /*########################  END SLIDER ######################################*/
 /*################################################################################*/
-
-
-
