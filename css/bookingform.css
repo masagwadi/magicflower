@@ -1,0 +1,119 @@
+
+#wrap{
+    clear: both;
+    width:95%;
+    margin:0 auto;
+    text-align:left;
+    margin-top:18px;
+    padding:5px;
+    background:#fff;
+    font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:16px;
+}
+#wrap .cont_details fieldset,.cont_order fieldset{
+    margin:10px;
+    padding:20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 5px;
+    border-color: #3DCAFF;
+}
+#wrap legend{
+    font-size:18px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: #3DCAFF;
+    font-weight:bold;
+    font-style:italic;
+    padding-bottom:10px;
+}
+#wrap .cont_details input{
+    margin-bottom:10px;
+    color:#000;
+}
+#wrap .input1:hover,.input1:active{
+
+}
+#wrap label{
+    display:block;
+    font-size:12px;
+    color:#000;
+    font-weight:bold;
+}
+#wrap label.inlinelabel
+{
+    display:inline;
+}
+#wrap .cont_order input{
+    margin-bottom:5px;
+}
+#wrap .cont_order p{
+    padding-top:5px;
+}
+
+#wrap input[type="radio"]
+{
+margin-top:8px;
+margin-bottom:8px;
+}
+
+#wrap input[type="text"]:hover,
+#wrap input[type="text"]:active {
+background-color: #FAF398;
+}
+
+#wrap input#submit
+{
+margin:10px;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+background-color: #FFA400;
+color: #fff;
+border: 1px solid #3DCAFF;
+border-left: 5px solid #3DCAFF;
+
+}
+
+#wrap input#submit:hover {
+    background-color: #3DCAFF;
+    color: #FFA400;
+    border-left: 20px solid #FFA400;
+    transition: all 0.9s ease;
+}
+
+
+#wrap div#totalPrice
+{
+    padding:10px;
+    font-weight:bold;
+    color: white;
+    background-color:#FFA400;
+}
+
+#wrap label.radiolabel
+{
+font-weight:normal;
+display:block;
+float: left;
+margin: 10px;
+}
+.clear{
+    clear: both;
+}
+
+.labeltitle {
+    margin: 5px 0;
+    padding: 5px 0;
+    color: #FFA400;
+}
+
+/*
+#wrap hr {
+
+    display: block;
+
+}
+*/

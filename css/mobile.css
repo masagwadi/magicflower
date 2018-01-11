@@ -1,0 +1,260 @@
+body {
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+}
+
+.banner-icon{
+    width: 100px;
+}
+.organicicon img{
+  height: 40px !important;
+}
+/*#GRIDS*/
+.grid-x2, .grid-x3, .grid-x4, .grid-x5, .grid-x6 {
+    display: inline-block;
+    vertical-align: top;
+    width: 100% !important;
+}
+.body-logo {
+  width: 100% !important;
+}
+.main-header02{
+  padding: 20px 5% 0px 5% !important;
+}
+.headinfo {
+  bottom: 10vh;
+}
+.languages {
+    padding: 10px 5% !important;
+  }
+.nav {
+    display: none;
+}
+
+/*//services page */
+
+.services-block img {
+    width: 100% !important;
+  }
+  .services-block .service-copy {
+      width: 90% !important;
+      float: none;
+      padding-left: 5% !important;
+    }
+    .services-block {
+      margin: 5px auto !important;
+    }
+    .accordion {
+        margin: 15px;
+    }
+
+    .accordion .languages .grid-x4 .one-block {
+	padding:0 !important;
+}
+/*end */
+
+.services-block {
+    width: 100%!important;
+    border-bottom: 2px solid black;
+}
+.services-block img, .services-block:nth-child(even) img  {
+    width: 80%;
+    display: block;
+    margin: 10px 10%;
+}
+.services-block .service-copy, .services-block:nth-child(even) .service-copy {
+    width: 80%;
+    display: block;
+    margin: 10px 10%;
+}
+
+.how_details {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.languages {
+    padding: 10px 2%;
+}
+.footer-top:nth-child(3) {
+    text-align: left;
+}
+
+
+.infosection {
+    width: 100%;
+}
+#datepicker {
+    width:60% !important;
+}
+
+#totalPrice {
+    width: 40%;
+    position: fixed;
+    right: 15px;
+    top:100px;
+}
+
+.datetimo{
+    float:left !important;
+    margin-right:0 !important;
+}
+
+#msform {
+    width: 90% !important;
+}
+#msform fieldset {
+  margin: 5% !important;
+}
+.left-price hr {
+    display: none;
+}
+.thetimes {
+    width:50% !important;
+}
+
+
+.left-price {
+    margin-left: 0;
+    width: 100%;
+    /* float: right; */
+    vertical-align: top;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    padding: 10px;
+}
+.main-form {
+    width: 100% !important;
+}
+
+.about-images{
+  width:98%;
+  border: solid 0.1px black;
+}
+.desktop {
+    display:none !important;
+}
+.mobile {
+    display: block;
+}
+.main-header {
+    padding: 0;
+}
+.main-header p {
+    width: 95%;
+    margin-top: 15px;
+}
+.headinfo b  {
+    font-size: 100%;
+}
+.main-header h2 {
+    padding: 10px;
+    margin-bottom: 0;
+}
+.body-logo {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profright{
+  width: 100%;
+}
+
+.profleft{
+  width: 100%;
+}
+
+/*BOOK Page */
+
+select {
+    min-width: 90%;
+}
+.datetimo {
+  width: 60% !important;
+  margin-top: 10px;
+  display: block;
+  margin-right: 30%;
+}
+/*select  {
+    width: 60% !important;
+}*/
+
+/*register*/
+
+.register-bg {
+  margin-top: 100px;
+}
+nav {
+  top: 0 !important;
+
+}
+
+.cleanerprof{
+  width: 100%;
+}
+/*Footer*/
+
+.footer-top {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer-top ul{
+  margin-left: 15px;
+}
+
+.slide-copy {
+    left: 50%;
+    width: 70%;
+    padding: 15px;
+    transform: translate(-50%) !important;
+    top: 100px;
+   
+}
+
+
+.slide-copy h1 {
+    font-size: 20px;
+}
+
+h2.button{
+    font-size: 24px;
+    padding: 6px 10px;
+}
+
+.slick-prev {
+    left: 14px;
+}
+
+.banner-icon{
+    top: auto;
+    bottom: 40px;
+    right: 0;
+    width: 80px;
+}
+
+/*
+.slide{
+    margin-left: -45px;
+    width: 250px!important;
+}
+*/
+
+
+.body-logo{
+    margin-bottom: 50px;
+}
+
+.one-block {
+    padding: 0 5px;
+}
+
+
+.footer-top h3{
+ margin-top: 30px;
+}

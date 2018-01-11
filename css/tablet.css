@@ -1,0 +1,58 @@
+.main-header {
+    padding: 0;
+}
+
+/*#GRIDS*/
+
+.grid-x2 {
+    width: 50%;
+}
+.grid-x3 {
+    width: 33%;
+}
+.grid-x4 {
+    width: 50%;
+}
+.grid-x5 {
+    width: 20%;
+}
+.grid-x6 {
+    width: 33%;
+}
+.grid-x2, .grid-x3, .grid-x4, .grid-x5, .grid-x6 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.one-lang, profile {
+    margin-right: 1%;
+}
+.grid-x4:nth-child(4) .one-lang, .grid-x4:nth-child(4) .profile {
+    margin-right: 1%;
+}
+
+.services-block {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.services-block img, .services-block:nth-child(even) img  {
+    width: 80%;
+    display: block;
+    margin: 10px 10%;
+}
+.services-block .service-copy, .services-block:nth-child(even) .service-copy {
+    width: 80%;
+    display: block;
+    margin: 10px 10%;
+}
+
+.how_details {
+    width: 45%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.profleft{
+  width: 100%;
+}
