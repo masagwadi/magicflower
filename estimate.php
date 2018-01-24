@@ -233,12 +233,22 @@ session_start();
                             </select>
                             <br>
 
+                            <label class="clear labeltitle label-header">Windows</label>
+                            <select class="select" id="newwindow" name='newwindow' onchange="calculateTotal()" onclick="calculateTotal()">
+                                <option value="0">Select</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                            </select>
+                            <br>
 
                             <div style="displayblock; width:100%; height:1px;"></div>
 
 
                             <br class="clear">
                             <!-- <b style="padding-left:30px;">And/Or</b> -->
+<!--
                             <p>
                                 <label class="inlinelabel radiolabel" for='includewindows'>
                                     <input type="checkbox" value="Yes" id="includewindows" name="includewindows" onclick="calculateTotal()" />
@@ -246,6 +256,7 @@ session_start();
                                     <br>
                                 </label>
                             </p>
+-->
                             <br class="clear">
                             <hr />
 

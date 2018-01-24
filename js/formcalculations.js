@@ -36,6 +36,19 @@ veranda_prices["3"] = 3;
 veranda_prices["4"] = 4;
 veranda_prices["5"] = 5;
 
+var newindow_prices = new Array();
+newindow_prices["0"] = 0;
+newindow_prices["1"] = 1;
+newindow_prices["2"] = 2;
+newindow_prices["3"] = 3;
+newindow_prices["4"] = 4;
+newindow_prices["5"] = 5;
+newindow_prices["6"] = 6;
+newindow_prices["7"] = 7;
+newindow_prices["8"] = 8;
+newindow_prices["9"] = 9;
+newindow_prices["10"] = 10;
+
 
 
 function getFrequencyPrice() {
@@ -177,6 +190,22 @@ function getVerandaPrice() {
     return verandaPrice * basebath;
 }
 
+function windowsPrice() {
+
+    var windowsprice = 0;
+
+    var theForm = document.forms["msform"];
+
+    var selectedWindow = theForm.elements["newwindow"];
+
+    windowsprice= newindow_prices[selectedWindow.value];
+
+//    if (includeInscription.checked == true) {
+//        windowsprice = 20;
+//    }
+
+    return windowsprice*20;
+}
 
 //materialPrice() finds the candles price based on a check box selection
 //function materialPrice() {
@@ -193,22 +222,27 @@ function getVerandaPrice() {
 //    return materialprice;
 //}
 
-function windowsPrice() {
-    //This local variable will be used to decide whether or not to charge for the inscription
-    //If the user checked the box this value will be 20
-    //otherwise it will remain at 0
-    var windowsprice = 0;
-    //Get a refernce to the form id="msform"
-    var theForm = document.forms["msform"];
-    //Get a reference to the checkbox id="includeinscription"
-    var includeInscription = theForm.elements["includewindows"];
-    //If they checked the box set windowsprice to 20
-    if (includeInscription.checked == true) {
-        windowsprice = 20;
-    }
-    //finally we return the windowsprice
-    return windowsprice;
-}
+
+
+
+
+
+//function windowsPrice() {
+//    //This local variable will be used to decide whether or not to charge for the inscription
+//    //If the user checked the box this value will be 20
+//    //otherwise it will remain at 0
+//    var windowsprice = 0;
+//    //Get a refernce to the form id="msform"
+//    var theForm = document.forms["msform"];
+//    //Get a reference to the checkbox id="includeinscription"
+//    var includeInscription = theForm.elements["includewindows"];
+//    //If they checked the box set windowsprice to 20
+//    if (includeInscription.checked == true) {
+//        windowsprice = 20;
+//    }
+//    //finally we return the windowsprice
+//    return windowsprice;
+//}
 
 function calculateTotal() {
     //Here we get the total price by calling our function var divobj = document.getElementById('totalPrice');
@@ -291,7 +325,7 @@ if(frequency>1){
     }
 
     if(finalcleaningPrice.toFixed(2) > 0){
-        var theduetot = "The Monthly cost: R" + monthlytotal;    
+        var theduetot = "The Monthly cost: R" + monthlytotal;
     }
 
 
