@@ -204,7 +204,7 @@ function windowsPrice() {
 //        windowsprice = 20;
 //    }
 
-    return windowsprice*20;
+    return windowsprice*10;
 }
 
 //materialPrice() finds the candles price based on a check box selection

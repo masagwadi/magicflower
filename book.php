@@ -119,6 +119,7 @@ if(isset($_POST['donate_submit']))
     $address=$_POST['address'];
     $rooms=$_POST['selectedrooms'];
     $bathrooms=$_POST['bathrooms'];
+    $window=$_POST['newwindow'];
     $bdate=$_POST['bdate'];
     $time=$_POST['time'];
 
@@ -128,8 +129,6 @@ if(isset($_POST['donate_submit']))
     $province=$_POST['province'];
     $pcode=$_POST['pcode'];
 
-//    $materials=$_POST['cleaningmaterials'];
-//    $window=$_POST['includewindows'];
     if(!isset($_POST['specialinst'])){
         $specialinst = "No Instruction";
     }
@@ -141,12 +140,12 @@ if(isset($_POST['donate_submit']))
         $materials=$_POST['cleaningmaterials'];
     }
 
-    if (!isset($_POST['includewindows']) || $_POST['includewindows'] == ''){
-
-        $window = 'No';
-    }else {
-        $window=$_POST['includewindows'];
-    }
+//    if (!isset($_POST['includewindows']) || $_POST['includewindows'] == ''){
+//
+//        $window = 'No';
+//    }else {
+//        $window=$_POST['includewindows'];
+//    }
 
 
     if (($frequency=="")||($mount=="")||($fname=="")||($lname=="")||($email=="")||($phone==""))
@@ -749,7 +748,7 @@ padding:10px;'>
 
                             <label class="clear labeltitle label-header">Windows</label>
                             <select class="select" id="newwindow" name='newwindow' onchange="calculateTotal()" onclick="calculateTotal()">
-                                <option value="0">Select</option>
+                                <option value="0">Select/None</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
@@ -777,10 +776,7 @@ padding:10px;'>
                                 <label class="inlinelabel" for=''>Test(R40)</label>
                                 <img src="img/calendar.png" height="50px">
                                 <input type="checkbox" id="test" name="" onclick="calculateTotal()">
-                                <!--
-<input type="radio" name="one" /><label class="inlinelabel" for=''>Test(R40)</label>
-<input type="radio" name="one" checked/><label class="inlinelabel" for=''>Test(R40)</label>
--->
+
                             </p>
 
                             <div style="displayblock; width:100%; height:1px;"></div>

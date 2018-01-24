@@ -49,7 +49,7 @@
             if (isset($row))
             {
 
-                $totaln += $row["OrderTotal"];
+                $totaln += $row["orderDue"];
                 echo "<tr>";
 
                 echo "<td class='font12 colhide'>".$row["idOrders"] .'</td>';
@@ -127,7 +127,7 @@
                     "searching": true,
                     "ordering": true,
                     "info": true,
-			    "order": [[ 0, "desc" ]],
+                "order": [[ 0, "desc" ]],
                     "autoWidth": true
                 });
             });
